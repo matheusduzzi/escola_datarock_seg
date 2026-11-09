@@ -1,0 +1,14 @@
+# As ferramentas que o assistente alcança hoje, sem nenhuma defesa. Uma por linha: nome, o que faz.
+ver_pedido: mostra um pedido
+ver_cliente: mostra nome, e-mail e telefone de um cliente
+responder_cliente: responde a quem escreveu, pelo mesmo canal
+marcar_na_agenda: marca coleta ou entrega na agenda do assistente
+abrir_troca: abre um pedido de troca para a equipe olhar
+mudar_endereco: troca o endereço de entrega de um pedido
+cancelar_item: tira um item de um pedido que ainda não foi pago
+estornar: devolve o dinheiro de um pedido pelo gateway
+pagar_etiqueta: paga a etiqueta de frete
+apagar_conversa: apaga uma conversa com cliente
+apagar_cliente: apaga o cadastro de um cliente
+ler_segredo: lê uma chave ou senha das configurações
+enviar_para_terceiro: manda dado da loja para um endereço que não é da loja nem do cliente

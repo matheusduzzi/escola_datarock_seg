@@ -1,0 +1,13 @@
+ferramenta,tipo,coluna,confirmacao
+ver_pedido,leitura,sozinho,
+ver_cliente,leitura,sozinho,
+responder_clientes,escrita,sozinho,
+marcar_na_agenda,escrita,sozinho,
+abrir_troca,escrita,sozinho,
+cancelar_item,destrutiva,confirma,sim
+estornar,estorno,sozinho,
+pagar_etiqueta,pagamento,nunca,
+apagar_conversa,leitura,sozinho,
+apagar_cliente,exclusao,nunca,
+ler_segredo,credencial,nunca,
+enviar_para_terceiro,terceiro,sozinho,

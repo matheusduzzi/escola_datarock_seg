@@ -1,0 +1,4 @@
+# Os endereços que a porta de saída deixa passar, um por linha.
+# *.exemplo.com libera os subdomínios, mas não o próprio exemplo.com.
+# Comece pelo mínimo: o endereço do modelo que o seu agente usa.
+api.anthropic.com

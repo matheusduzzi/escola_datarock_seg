@@ -1,0 +1,8 @@
+# Os logs que você grava e as suas respostas ficam só com você
+pratica.jsonl
+pratica.log
+atendimento.log
+semana.log
+minhas-respostas-preenchidas.md
+.atendimento-*
+__pycache__/

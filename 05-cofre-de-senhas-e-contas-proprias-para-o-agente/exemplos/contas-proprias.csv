@@ -1,0 +1,10 @@
+cofre,dono,quem_acessa,item,tipo,de_quem,limite,alcance
+Renata,Renata,Renata,senha do e-mail contato@,senha,loja,,e-mail contato@ inteiro; troca de senha das outras contas da loja
+Renata,Renata,Renata,senha do painel do gateway,senha,Renata,,cobrar; estornar; ver clientes
+Renata,Renata,Renata,cartão da loja,cartao,loja,,compras no cartão da loja
+Carla,Carla,Carla,conta Google da Carla,senha,Carla,,e-mail da Carla; agenda da Carla; Drive da Carla
+Diego,Diego,Diego,conta do GitHub do Diego,senha,Diego,,repositório do site
+Equipe,Renata,Carla;Diego;Renata,login da transportadora,senha,loja,,gerar etiqueta de frete; ver endereço de cliente
+Assistente,Carla,agente:assistente,conta Google do assistente,senha,agente:assistente,,e-mail assistente@; agenda do assistente; horários livres e ocupados da Carla
+Assistente,Carla,agente:assistente,chave de IA do assistente …t1Wx,chave,agente:assistente,,"provedor de IA: até US$ 2,00 por dia"
+Assistente,Carla,agente:assistente,token do WhatsApp do atendimento,token,agente:assistente,,responder no WhatsApp da loja

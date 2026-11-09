@@ -1,0 +1,37 @@
+{
+ "_leia": "O que o canal diz de cada mensagem da tarde, fora do texto. «identidade» é o que a casca usa para saber quem escreveu.",
+ "E1": {
+  "mostra": "WhatsApp (19) 90000-0002",
+  "identidade": "(19) 90000-0002"
+ },
+ "E2": {
+  "mostra": "WhatsApp (19) 95555-0219, nome no perfil «Renata»",
+  "identidade": "(19) 95555-0219"
+ },
+ "E3": {
+  "mostra": "fiscal@contabilprado.example",
+  "identidade": "fiscal@contabilprado.example"
+ },
+ "E4": {
+  "mostra": "diego@aurora.example",
+  "identidade": "diego@aurora.example"
+ },
+ "E8": {
+  "mostra": "anexo do e-mail fiscal@contabilprado.example",
+  "identidade": "fiscal@contabilprado.example"
+ },
+ "E6": {
+  "mostra": "agente de triagem",
+  "agente": "triagem",
+  "identidade": "",
+  "responder_para": "renata@aurora.example"
+ },
+ "E5": {
+  "mostra": "WhatsApp (19) 90000-0003",
+  "identidade": "(19) 90000-0003"
+ },
+ "E7": {
+  "mostra": "coletas@rotasul-entregas.example",
+  "identidade": "coletas@rotasul-entregas.example"
+ }
+}

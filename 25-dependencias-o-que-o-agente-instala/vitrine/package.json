@@ -1,0 +1,14 @@
+{
+  "name": "vitrine-aurora",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gera a página da vitrine da Loja Aurora a partir do catálogo",
+  "scripts": {
+    "gerar": "node gerar.js --saida vitrine.html",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "is-even": "1.0.0",
+    "minimist": "1.2.5"
+  }
+}

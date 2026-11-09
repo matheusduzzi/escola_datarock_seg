@@ -1,0 +1,22 @@
+# Configuração do SSH do servidor da Loja Aurora, como veio do provedor.
+# Na aula você muda as linhas 1 e 2 e testa antes de reiniciar.
+# A 3 já vem desligada: deixe assim.
+
+Port 22
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+# 1. Quem pode entrar como root
+PermitRootLogin yes
+
+# 2. Login com senha
+PasswordAuthentication yes
+
+# 3. Senha pelo teclado (outro jeito de pedir senha)
+KbdInteractiveAuthentication no
+
+PubkeyAuthentication yes
+PermitEmptyPasswords no
+UsePAM yes
+X11Forwarding no
+PrintMotd no
+Subsystem sftp internal-sftp

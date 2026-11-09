@@ -1,0 +1,10 @@
+# Links que chegaram à equipe e aos clientes da Loja Aurora na semana da Black Friday.
+# Um por linha. O dono_do_link.py só lê o texto: não abre nenhum.
+https://aurora.example/pedidos/AUR-1240
+https://aurora-reembolso.example/pix?pedido=AUR-1240
+https://aurora.example.reembolso-rapido.example/confirmar
+https://aurora.example@pagamento-seguro.example/estorno
+https://pagamento-seguro.example/aurora.example/estorno
+https://www.aurora.example/troca
+https://aurоra.example/login
+https://encurta.example/x7Kq

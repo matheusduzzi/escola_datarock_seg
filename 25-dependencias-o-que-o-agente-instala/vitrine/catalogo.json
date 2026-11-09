@@ -1,0 +1,9 @@
+[
+  { "nome": "Luminária de mesa Aurora", "categoria": "luminarias", "preco_centavos": 24990 },
+  { "nome": "Luminária de piso Arco", "categoria": "luminarias", "preco_centavos": 58900 },
+  { "nome": "Pendente Lua", "categoria": "luminarias", "preco_centavos": 31990 },
+  { "nome": "Vela aromática Alecrim", "categoria": "decoracao", "preco_centavos": 6990 },
+  { "nome": "Vaso de cerâmica Duna", "categoria": "decoracao", "preco_centavos": 8990 },
+  { "nome": "Manta de algodão Serra", "categoria": "texteis", "preco_centavos": 15990 },
+  { "nome": "Conjunto de almofadas Linho & Lã", "categoria": "texteis", "preco_centavos": 129900 }
+]

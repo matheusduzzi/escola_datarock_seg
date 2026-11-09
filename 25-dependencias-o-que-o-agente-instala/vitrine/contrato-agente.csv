@@ -1,0 +1,8 @@
+ferramenta,tipo,coluna,confirmacao
+ler_codigo,leitura,sozinho,
+editar_codigo,escrita,sozinho,
+rodar_testes,escrita,sozinho,
+instalar_pacote,pacote,sozinho,
+pular_teste,teste,nunca,
+ler_env,credencial,nunca,
+git_push,publica,confirma,sim

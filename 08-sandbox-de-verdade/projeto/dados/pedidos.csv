@@ -1,0 +1,4 @@
+id,cliente,email,produto,quantidade,total_centavos,status
+1,Teste Um,teste1@cliente.example,Luminária de mesa Aurora,1,24990,pago
+2,Teste Dois,teste2@cliente.example,Vela aromática Alecrim,2,13980,aguardando pagamento
+3,Teste Três,teste3@cliente.example,Luminária de piso Arco,1,58900,pago

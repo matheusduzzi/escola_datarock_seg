@@ -1,0 +1,123 @@
+hora;sessao;ip;email;produto;valor;cartao;resultado;motivo
+08:07:01;s-zmd2;203.0.113.16;lia.gabi62@cliente.example;Vela aromática Alecrim;69,90;fp_c6eb87;aprovado;
+08:37:18;s-avys;203.0.113.202;fabio.malu75@cliente.example;Luminária de piso Arco;589,00;fp_f0223c;aprovado;
+08:42:25;s-s3x4;203.0.113.2;malu.iris55@cliente.example;Bandeja de madeira Copa;99,90;fp_e0253c;aprovado;
+08:48:27;s-en6n;192.0.2.89;joao.yuri72@cliente.example;Almofada linho Cru;79,90;fp_02ad8f;recusado;insufficient_funds
+08:50:09;s-f55a;203.0.113.149;caio.iris52@cliente.example;Manta de algodão Serra;159,90;fp_bf1a8b;aprovado;
+09:30:50;s-q97b;192.0.2.152;bruno.duda4@cliente.example;Pendente de vidro Bruma;639,00;fp_69ad98;recusado;insufficient_funds
+09:33:44;s-q97b;192.0.2.152;bruno.duda4@cliente.example;Pendente de vidro Bruma;639,00;fp_807313;aprovado;
+09:43:22;s-477v;203.0.113.32;karen.cecilia17@cliente.example;Luminária de mesa Aurora;249,90;fp_0d0d2a;aprovado;
+09:55:59;s-thvt;192.0.2.208;elisa.vera51@cliente.example;Luminária de piso Arco;589,00;fp_192796;aprovado;
+10:08:33;s-8rsa;203.0.113.146;vera.caio23@cliente.example;Vela aromática Alecrim;69,90;fp_af6738;aprovado;
+10:18:13;s-qjuq;192.0.2.79;ravi.paula18@cliente.example;Luminária de piso Arco;589,00;fp_e9f135;aprovado;
+10:22:17;s-ehr7;192.0.2.112;carol.caio24@cliente.example;Lâmpada filamento 4 W;49,80;fp_440808;aprovado;
+10:30:51;s-32b5;203.0.113.126;ravi.sofia31@cliente.example;Manta de algodão Serra;159,90;fp_4063ae;aprovado;
+10:38:51;s-tx5y;203.0.113.115;vera.otavio64@cliente.example;Almofada linho Cru;79,90;fp_097511;aprovado;
+10:39:38;s-ud89;192.0.2.159;joao.ana41@cliente.example;Luminária de piso Arco;589,00;fp_2ed3a7;aprovado;
+10:45:09;s-eb97;192.0.2.47;otavio.iris63@cliente.example;Arandela de parede Fresta;189,00;fp_c0d858;aprovado;
+10:56:00;s-sdme;203.0.113.25;carol.marina92@cliente.example;Vaso de cerâmica Duna;129,00;fp_d91c73;aprovado;
+11:19:45;s-wwqx;192.0.2.41;fabio.bia86@cliente.example;Luminária de mesa Aurora;499,80;fp_be9e63;aprovado;
+11:21:21;s-pdxt;192.0.2.9;zeca.ravi94@cliente.example;Fita de LED quente 5 m;89,90;fp_07145b;aprovado;
+11:45:16;s-fc6b;203.0.113.51;bruno.leo32@cliente.example;Vaso de cerâmica Duna;258,00;fp_6c47c8;aprovado;
+11:59:19;s-9np4;192.0.2.222;zeca.iris5@cliente.example;Luminária de piso Arco;589,00;fp_9dc369;aprovado;
+12:05:34;s-ne8a;203.0.113.176;davi.karen77@cliente.example;Manta de algodão Serra;159,90;fp_d88fd7;aprovado;
+12:16:36;s-u553;203.0.113.52;vera.caio87@cliente.example;Bandeja de madeira Copa;199,80;fp_1cd889;aprovado;
+12:32:04;s-28j2;203.0.113.39;carol.iris5@cliente.example;Luminária de piso Arco;589,00;fp_f7ff36;aprovado;
+12:42:53;s-dp5q;192.0.2.207;gabi.nina53@cliente.example;Fita de LED quente 5 m;89,90;fp_22fb31;recusado;insufficient_funds
+12:43:15;s-25m3;192.0.2.228;teo.iris11@cliente.example;Luminária de mesa Aurora;499,80;fp_02cf4a;aprovado;
+12:45:28;s-dp5q;192.0.2.207;gabi.nina53@cliente.example;Fita de LED quente 5 m;89,90;fp_ffc62b;aprovado;
+12:50:46;s-98cp;203.0.113.76;nina.fabio76@cliente.example;Espelho redondo Lago;279,00;fp_80615c;recusado;insufficient_funds
+12:54:52;s-6yyt;192.0.2.143;bia.zeca76@cliente.example;Espelho redondo Lago;279,00;fp_0b5b11;aprovado;
+12:57:06;s-hs4e;203.0.113.114;lia.duda56@cliente.example;Luminária de mesa Aurora;249,90;fp_afe1e0;aprovado;
+13:26:17;s-8mpu;203.0.113.24;sofia.teo1@cliente.example;Arandela de parede Fresta;378,00;fp_80e29b;aprovado;
+13:54:16;s-sw3y;192.0.2.35;vera.rafa52@cliente.example;Pendente de vidro Bruma;319,50;fp_9689a9;aprovado;
+13:54:57;s-yqzp;203.0.113.18;cecilia.bia91@cliente.example;Vaso de cerâmica Duna;129,00;fp_baebbf;aprovado;
+14:05:30;s-xky8;198.51.100.82;qio1wrm@mail.example;Lâmpada filamento 4 W;24,90;fp_28fbe4;recusado;generic_decline
+14:06:19;s-9jsw;198.51.100.82;a9kj3i1kp@mail.example;Lâmpada filamento 4 W;24,90;fp_6182b0;recusado;incorrect_cvc
+14:06:49;s-gdfs;198.51.100.204;t0tajnhsd@mail.example;Lâmpada filamento 4 W;24,90;fp_3825fa;recusado;generic_decline
+14:07:05;s-428a;203.0.113.8;rafa.davi8@cliente.example;Bandeja de madeira Copa;99,90;fp_d163b5;aprovado;
+14:07:16;s-byff;198.51.100.204;0ke8l8x@mail.example;Lâmpada filamento 4 W;24,90;fp_76fe62;recusado;generic_decline
+14:07:48;s-yzzp;198.51.100.174;r15k6j@mail.example;Lâmpada filamento 4 W;24,90;fp_7c7956;recusado;generic_decline
+14:08:46;s-e2qg;198.51.100.174;z8zizsl5@mail.example;Lâmpada filamento 4 W;24,90;fp_06778e;recusado;generic_decline
+14:09:23;s-pj6y;198.51.100.90;hd1us44wh@mail.example;Lâmpada filamento 4 W;24,90;fp_895a11;aprovado;
+14:10:07;s-gs5r;198.51.100.90;rldac71@mail.example;Lâmpada filamento 4 W;24,90;fp_8ece2f;recusado;generic_decline
+14:10:54;s-xghf;198.51.100.181;ezxozqvi@mail.example;Lâmpada filamento 4 W;24,90;fp_b3a8ca;recusado;incorrect_cvc
+14:11:38;s-ygdh;198.51.100.181;mr1w0ejqs@mail.example;Lâmpada filamento 4 W;24,90;fp_e08fb4;recusado;generic_decline
+14:12:36;s-cdrq;198.51.100.176;pfdqo2yhy@mail.example;Lâmpada filamento 4 W;24,90;fp_a60a30;recusado;generic_decline
+14:12:58;s-8dxd;198.51.100.176;ljvdji@mail.example;Lâmpada filamento 4 W;24,90;fp_962713;recusado;expired_card
+14:13:33;s-pv7v;198.51.100.98;nicrikg@mail.example;Lâmpada filamento 4 W;24,90;fp_035503;recusado;incorrect_cvc
+14:14:22;s-s8hy;198.51.100.98;ynb8i4w@mail.example;Lâmpada filamento 4 W;24,90;fp_09fc4e;recusado;incorrect_cvc
+14:15:03;s-qw6u;198.51.100.218;nhvxlj@mail.example;Lâmpada filamento 4 W;24,90;fp_686498;recusado;expired_card
+14:15:28;s-vn9c;198.51.100.218;hx7wdvy@mail.example;Lâmpada filamento 4 W;24,90;fp_efb844;recusado;generic_decline
+14:16:03;s-54nr;198.51.100.147;ojm883p3@mail.example;Lâmpada filamento 4 W;24,90;fp_be4bdd;recusado;generic_decline
+14:16:24;s-gcjz;198.51.100.147;e2ydwt7o@mail.example;Lâmpada filamento 4 W;24,90;fp_789035;aprovado;
+14:17:22;s-gq8f;198.51.100.165;ecn13tte@mail.example;Lâmpada filamento 4 W;24,90;fp_9bac8b;recusado;generic_decline
+14:18:08;s-fpmt;198.51.100.165;0mo6aj@mail.example;Lâmpada filamento 4 W;24,90;fp_f4c763;recusado;generic_decline
+14:18:33;s-pyrs;198.51.100.61;b9c3ui3hm@mail.example;Lâmpada filamento 4 W;24,90;fp_ca5e86;recusado;incorrect_cvc
+14:18:53;s-pbc9;198.51.100.61;qjjjnqm6@mail.example;Lâmpada filamento 4 W;24,90;fp_de7e31;recusado;generic_decline
+14:19:38;s-32qc;198.51.100.44;8bs9zvdy@mail.example;Lâmpada filamento 4 W;24,90;fp_3ac34b;recusado;generic_decline
+14:20:04;s-fj7f;198.51.100.44;v4m5f560@mail.example;Lâmpada filamento 4 W;24,90;fp_9c0a63;aprovado;
+14:20:26;s-8kz9;198.51.100.146;je49nk@mail.example;Lâmpada filamento 4 W;24,90;fp_974529;recusado;do_not_honor
+14:20:50;s-ttsv;198.51.100.146;nm5bwk@mail.example;Lâmpada filamento 4 W;24,90;fp_34d6b4;recusado;generic_decline
+14:21:50;s-75sj;198.51.100.88;lnzw50ms@mail.example;Lâmpada filamento 4 W;24,90;fp_57d289;recusado;generic_decline
+14:22:18;s-vm7h;198.51.100.88;epe695d@mail.example;Lâmpada filamento 4 W;24,90;fp_770e46;recusado;generic_decline
+14:23:05;s-9sm8;198.51.100.232;pead7wb6g@mail.example;Lâmpada filamento 4 W;24,90;fp_619dc2;recusado;do_not_honor
+14:23:37;s-9ymd;198.51.100.232;9teyul9@mail.example;Lâmpada filamento 4 W;24,90;fp_de5279;recusado;generic_decline
+14:24:26;s-rgk6;198.51.100.235;h6a7h2g1@mail.example;Lâmpada filamento 4 W;24,90;fp_ea3246;recusado;incorrect_cvc
+14:25:17;s-tkfg;198.51.100.235;zy443bgm@mail.example;Lâmpada filamento 4 W;24,90;fp_af8914;recusado;incorrect_cvc
+14:26:03;s-fy6w;198.51.100.117;01xnryy@mail.example;Lâmpada filamento 4 W;24,90;fp_3e44a9;recusado;do_not_honor
+14:26:32;s-m2wx;198.51.100.117;r1q57wvy5@mail.example;Lâmpada filamento 4 W;24,90;fp_1e6b51;recusado;incorrect_cvc
+14:27:14;s-f92b;198.51.100.201;cdwprau3@mail.example;Lâmpada filamento 4 W;24,90;fp_734d4c;aprovado;
+14:27:20;s-z6xh;192.0.2.46;heitor.ana42@cliente.example;Vaso de cerâmica Duna;258,00;fp_18f7da;aprovado;
+14:27:44;s-77hy;198.51.100.201;ulrzbe@mail.example;Lâmpada filamento 4 W;24,90;fp_65e906;recusado;expired_card
+14:28:24;s-etke;198.51.100.191;1uz9hd26@mail.example;Lâmpada filamento 4 W;24,90;fp_609427;recusado;generic_decline
+14:29:07;s-gjx7;198.51.100.191;bmeb3brfe@mail.example;Lâmpada filamento 4 W;24,90;fp_77d456;recusado;generic_decline
+14:40:11;s-6byg;203.0.113.61;rafa.cecilia86@cliente.example;Fita de LED quente 5 m;89,90;fp_67319a;aprovado;
+14:46:25;s-4yhf;203.0.113.243;ana.heitor47@cliente.example;Pendente de vidro Bruma;319,50;fp_c8c60d;aprovado;
+15:18:03;s-nfhv;203.0.113.135;bia.nina63@cliente.example;Arandela de parede Fresta;189,00;fp_ba0234;aprovado;
+15:18:27;s-f3e4;203.0.113.95;nina.yuri26@cliente.example;Almofada linho Cru;79,90;fp_7c8714;aprovado;
+15:20:18;s-6jme;203.0.113.171;malu.iris68@cliente.example;Espelho redondo Lago;279,00;fp_5f6b4a;aprovado;
+15:30:49;s-mtrd;203.0.113.201;sofia.iris22@cliente.example;Almofada linho Cru;79,90;fp_993b8b;aprovado;
+15:46:28;s-9wfe;203.0.113.57;leo.karen94@cliente.example;Fita de LED quente 5 m;179,80;fp_4f6285;aprovado;
+16:03:52;s-6w3q;203.0.113.78;paula.carol23@cliente.example;Manta de algodão Serra;319,80;fp_3ed31d;aprovado;
+16:11:28;s-c28m;203.0.113.195;malu.gabi34@cliente.example;Vaso de cerâmica Duna;129,00;fp_b2aa34;aprovado;
+16:12:08;s-yav7;192.0.2.56;ravi.karen17@cliente.example;Vaso de cerâmica Duna;129,00;fp_7e3a08;aprovado;
+16:23:01;s-wnxp;192.0.2.15;heitor.fabio13@cliente.example;Vaso de cerâmica Duna;129,00;fp_60a6a7;aprovado;
+16:47:49;s-tjvz;192.0.2.136;bruno.joao2@cliente.example;Espelho redondo Lago;279,00;fp_9059e4;aprovado;
+17:03:41;s-jazq;192.0.2.217;cecilia.joao71@cliente.example;Lâmpada filamento 4 W;49,80;fp_cfd89f;aprovado;
+17:13:04;s-zqeq;203.0.113.22;nina.joao23@cliente.example;Vela aromática Alecrim;69,90;fp_dc1c6f;aprovado;
+17:16:33;s-ds7t;203.0.113.96;cecilia.carol47@cliente.example;Vaso de cerâmica Duna;129,00;fp_547fdb;aprovado;
+18:00:03;s-gydc;192.0.2.141;gabi.teo84@cliente.example;Almofada linho Cru;79,90;fp_6cc7cd;aprovado;
+18:12:45;s-ehh5;203.0.113.102;rafa.elisa64@cliente.example;Manta de algodão Serra;159,90;fp_283cf7;aprovado;
+18:15:04;s-5ur4;203.0.113.182;elisa.duda4@cliente.example;Pendente de vidro Bruma;639,00;fp_9948eb;aprovado;
+18:16:35;s-x3eq;192.0.2.17;gabi.sofia42@cliente.example;Fita de LED quente 5 m;89,90;fp_ce0450;aprovado;
+18:37:03;s-zz7d;203.0.113.136;karen.ravi63@cliente.example;Arandela de parede Fresta;378,00;fp_b2ab5e;aprovado;
+18:38:13;s-frjq;192.0.2.188;yuri.joao79@cliente.example;Arandela de parede Fresta;189,00;fp_e8bd92;recusado;insufficient_funds
+18:40:52;s-frjq;192.0.2.188;yuri.joao79@cliente.example;Arandela de parede Fresta;189,00;fp_8df638;aprovado;
+18:42:44;s-79c4;192.0.2.50;malu.paula16@cliente.example;Luminária de piso Arco;589,00;fp_5a07d7;aprovado;
+18:57:59;s-sz2u;203.0.113.21;duda.bruno27@cliente.example;Fita de LED quente 5 m;89,90;fp_835f9b;aprovado;
+19:09:54;s-4329;192.0.2.225;malu.joao38@cliente.example;Vela aromática Alecrim;139,80;fp_6becc1;aprovado;
+19:16:44;s-wezb;203.0.113.130;gabi.lia30@cliente.example;Espelho redondo Lago;279,00;fp_066487;aprovado;
+19:23:46;s-pm9y;203.0.113.112;gabi.elisa63@cliente.example;Almofada linho Cru;79,90;fp_cc30e4;aprovado;
+19:25:38;s-22gt;192.0.2.180;cecilia.joao79@cliente.example;Bandeja de madeira Copa;99,90;fp_06925d;aprovado;
+19:50:34;s-vfs6;203.0.113.244;malu.teo81@cliente.example;Luminária de piso Arco;589,00;fp_5e78a1;aprovado;
+19:53:07;s-zh4j;192.0.2.139;bia.carol33@cliente.example;Arandela de parede Fresta;189,00;fp_23929a;aprovado;
+20:03:32;s-u3we;203.0.113.27;gabi.otavio32@cliente.example;Bandeja de madeira Copa;99,90;fp_f84c43;aprovado;
+20:09:44;s-hb8n;203.0.113.7;teo.teo58@cliente.example;Vaso de cerâmica Duna;129,00;fp_af3500;aprovado;
+20:11:29;s-cy6e;203.0.113.211;elisa.joao51@cliente.example;Bandeja de madeira Copa;199,80;fp_24903a;aprovado;
+20:12:07;s-yn26;203.0.113.58;otavio.leo98@cliente.example;Bandeja de madeira Copa;199,80;fp_503512;aprovado;
+20:36:27;s-xsr7;192.0.2.63;teo.lia84@cliente.example;Espelho redondo Lago;279,00;fp_6e2615;aprovado;
+20:47:08;s-ckuq;203.0.113.113;malu.otavio98@cliente.example;Lâmpada filamento 4 W;49,80;fp_0a34a8;aprovado;
+20:55:27;s-r879;203.0.113.30;lia.bruno41@cliente.example;Arandela de parede Fresta;189,00;fp_fbe566;aprovado;
+20:58:30;s-8yu2;203.0.113.203;zeca.heitor87@cliente.example;Manta de algodão Serra;319,80;fp_dca3b6;aprovado;
+20:59:53;s-26d4;203.0.113.60;nina.malu78@cliente.example;Almofada linho Cru;79,90;fp_a71283;aprovado;
+21:40:35;s-gdfx;192.0.2.174;nina.heitor81@cliente.example;Almofada linho Cru;79,90;fp_17c1e7;aprovado;
+21:54:16;s-cvnu;203.0.113.84;elisa.paula39@cliente.example;Espelho redondo Lago;279,00;fp_93a2c0;aprovado;
+21:55:30;s-9uqv;203.0.113.116;lia.zeca70@cliente.example;Pendente de vidro Bruma;319,50;fp_39b03c;aprovado;
+21:56:06;s-27zt;203.0.113.45;bia.heitor43@cliente.example;Fita de LED quente 5 m;89,90;fp_546fe2;aprovado;
+22:05:27;s-hnay;203.0.113.117;vera.lia72@cliente.example;Almofada linho Cru;79,90;fp_d06538;aprovado;
+22:10:58;s-hb4b;192.0.2.119;lia.sofia16@cliente.example;Vela aromática Alecrim;139,80;fp_2633df;aprovado;
+22:23:59;s-rf34;192.0.2.107;gabi.fabio1@cliente.example;Bandeja de madeira Copa;99,90;fp_6afafd;aprovado;
+22:47:11;s-96tg;192.0.2.67;yuri.nina87@cliente.example;Luminária de piso Arco;589,00;fp_539b2c;aprovado;
+22:54:43;s-7t24;203.0.113.62;tiago.cecilia48@cliente.example;Espelho redondo Lago;279,00;fp_435790;aprovado;
+22:57:54;s-y6y4;203.0.113.150;zeca.joao13@cliente.example;Vela aromática Alecrim;69,90;fp_6d66fb;aprovado;

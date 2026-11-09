@@ -1,0 +1,13 @@
+{"hora": "seg 09:10", "canal": "whatsapp", "cliente": "c-0711", "pedido": "AUR-1201", "mensagem": "Bom dia! Meu CPF é 779 434 546 47, quero saber do meu pedido.", "resposta": "Bom dia! Achei pelo número do pedido: o AUR-1201 sai hoje."}
+{"hora": "seg 09:40", "canal": "formulario", "cliente": "c-0388", "pedido": "", "mensagem": "Não recebi o passo a passo da troca. Meu e-mail é lu.prado@cliente.example", "resposta": "Reenviei agora para lu.prado@cliente.example."}
+{"hora": "seg 11:02", "canal": "whatsapp", "cliente": "c-0745", "pedido": "AUR-1204", "mensagem": "Pode me ligar? +55 (21) 9 9812-3344", "resposta": "A Carla liga ainda hoje."}
+{"hora": "ter 08:55", "canal": "whatsapp", "cliente": "c-0750", "pedido": "", "mensagem": "Quero pagar por aqui mesmo. O cartão é 4111-1111-1111-1111.", "resposta": "Por aqui eu não recebo cartão. O pagamento é só pelo link do site."}
+{"hora": "ter 10:30", "canal": "formulario", "cliente": "c-0602", "pedido": "", "mensagem": "Sou a Helena, do orçamento das arandelas. CPF 403.940.290-16. Pode mandar para PAULA.REIS@CLIENTE.EXAMPLE, que cuida das compras?", "resposta": "Mando hoje para PAULA.REIS@CLIENTE.EXAMPLE."}
+{"hora": "ter 14:12", "canal": "whatsapp", "cliente": "c-0333", "pedido": "AUR-1195", "mensagem": "A vela chegou quebrada. Meu fixo é 11 3061 2290.", "resposta": "Sinto muito! A Carla liga para combinar a troca."}
+{"hora": "qua 09:05", "canal": "whatsapp", "cliente": "c-0760", "pedido": "AUR-1210", "mensagem": "Esse é meu outro número: 98123-4567", "resposta": "Anotado."}
+{"hora": "qua 13:44", "canal": "formulario", "cliente": "c-0771", "pedido": "", "mensagem": "Quero nota fiscal no CPF 04108537208.", "resposta": "Sai na nota do pedido."}
+{"hora": "qui 10:20", "canal": "whatsapp", "cliente": "c-0201", "pedido": "AUR-1190", "mensagem": "Recebi, obrigado! Se precisar: (31) 99654-0188", "resposta": "Obrigada, Marcos!"}
+{"hora": "qui 15:00", "canal": "whatsapp", "cliente": "c-0780", "pedido": "AUR-1215", "mensagem": "Entrega na Rua das Acácias, 120, ap 31, por favor.", "resposta": "Endereço anotado no pedido AUR-1215."}
+{"hora": "sex 09:12", "canal": "formulario", "cliente": "c-0790", "pedido": "", "mensagem": "Meu e-mail é bia ponto santos arroba cliente ponto example", "resposta": "Recebido."}
+{"hora": "sex 11:30", "canal": "whatsapp", "cliente": "c-0711", "pedido": "AUR-1201", "mensagem": "Chegou! CPF de novo pra nota: 157.682.949-91", "resposta": "A nota foi para o e-mail do cadastro."}
+{"hora": "sex 16:45", "canal": "whatsapp", "cliente": "c-0801", "pedido": "AUR-1220", "mensagem": "O espelho Lago tem pronta entrega? Meu zap é 11 99876 5432", "resposta": "Tem, sim: o espelho sai por R$ 279,00."}

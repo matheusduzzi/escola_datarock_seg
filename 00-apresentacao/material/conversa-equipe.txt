@@ -1,0 +1,14 @@
+#atendimento-aurora, terça-feira
+
+Carla (financeiro), 09:12
+  Diego, segue a chave do gateway para você testar o checkout:
+  aurora_sk_teste_Rb7Wn2Kq9Zt4Lm6Xc1Pd
+  Depois me avisa se funcionou.
+
+Diego (site), 09:40
+  Funcionou! Coloquei no config-do-site.js com o prefixo PUBLIC_ porque sem ele o
+  site não enxergava a variável.
+
+Diego (site), 09:42
+  Subi o projeto no GitHub da loja para a Renata ver. O .gitignore está no
+  gitignore-do-projeto.txt.

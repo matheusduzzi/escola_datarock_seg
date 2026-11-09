@@ -1,0 +1,18 @@
+{
+ "_leia": "O que o canal diz de cada mensagem da manhã, fora do texto: o número que o WhatsApp mostrou, o endereço do e-mail, de onde veio o anexo. «identidade» é o que a casca usa para saber quem escreveu. Formulário e página não têm identidade: o nome e o e-mail de um formulário qualquer um digita.",
+ "1": {"mostra": "WhatsApp (19) 90000-0101", "identidade": "(19) 90000-0101"},
+ "2": {"mostra": "marina@cliente.example", "identidade": "marina@cliente.example"},
+ "3": {"mostra": "formulário do site, nome digitado «Duda Rocha», e-mail digitado duda@cliente.example", "identidade": "", "responder_para": "duda@cliente.example"},
+ "4": {"mostra": "otavio@cliente.example", "identidade": "otavio@cliente.example"},
+ "5": {"mostra": "WhatsApp (19) 90000-0102", "identidade": "(19) 90000-0102"},
+ "6": {"mostra": "anexo do e-mail vendas@vidrariabruma.example", "identidade": "vendas@vidrariabruma.example"},
+ "7": {"mostra": "renan@cliente.example", "identidade": "renan@cliente.example"},
+ "8": {"mostra": "página aberta ao pesquisar o preço para o Renan (mensagem 7)", "identidade": "", "url": "https://blog-de-luminarias.example/melhores-2026", "responder_para": "renan@cliente.example"},
+ "9": {"mostra": "formulário do site, nome digitado «Lia Nunes», e-mail digitado lia@cliente.example", "identidade": "", "responder_para": "lia@cliente.example"},
+ "10": {"mostra": "agente de triagem", "agente": "triagem", "identidade": "", "responder_para": "paulo@cliente.example"},
+ "11": {"mostra": "coletas@rotasul.example", "identidade": "coletas@rotasul.example"},
+ "12": {"mostra": "WhatsApp (19) 98888-0412, nome no perfil «Diego TI»", "identidade": "(19) 98888-0412"},
+ "13": {"mostra": "WhatsApp (19) 97777-0313", "identidade": "(19) 97777-0313"},
+ "14": {"mostra": "formulário do site, e-mail digitado ana@cliente.example", "identidade": "", "responder_para": "ana@cliente.example"},
+ "15": {"mostra": "bia@cliente.example", "identidade": "bia@cliente.example"}
+}

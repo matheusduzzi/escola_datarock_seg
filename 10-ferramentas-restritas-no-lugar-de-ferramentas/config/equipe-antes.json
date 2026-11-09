@@ -1,0 +1,9 @@
+{
+ "nome": "assistente da equipe, antes (como o Diego montou)",
+ "mensagens": "../equipe/tarde.json",
+ "canais": "../equipe/canais.json",
+ "roteiro": "../roteiro/equipe.jsonl",
+ "prompt": "Você é o assistente interno da equipe da Loja Aurora.\nUse o terminal, o SQL no banco e o e-mail para resolver o que a equipe pedir.",
+ "ferramentas": {"terminal": ["todos"], "sql": ["todos"], "enviar_email": ["todos"]},
+ "remetentes": null
+}

@@ -1,0 +1,12 @@
+# O que o aluno gera rodando a aula fica fora do repositório.
+/backups/
+/restaurado/
+/rascunhos/
+/trilha/
+/loja/loja.db*
+/loja-quarta.db*
+/chave-aurora
+/chave-aurora.pub
+# Os bancos do exercício entram, mesmo com o *.db da raiz do kit.
+!/exercicio/terca/*.db
+!/exercicio/terca/backups/*.db

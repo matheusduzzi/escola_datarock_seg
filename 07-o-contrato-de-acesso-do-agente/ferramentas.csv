@@ -1,0 +1,25 @@
+agente,ferramenta,tipo,verbo,o_que_faz
+assistente,ver_pedido,leitura,VER,mostra um pedido
+assistente,ver_cliente,leitura,VER,"mostra nome, e-mail e telefone de um cliente"
+assistente,responder_cliente,escrita,RESPONDER,"responde a quem escreveu, pelo mesmo canal"
+assistente,marcar_na_agenda,escrita,MARCAR,marca coleta ou entrega na agenda do assistente
+assistente,abrir_troca,escrita,ABRIR TROCA,abre um pedido de troca para a equipe olhar
+assistente,mudar_endereco,escrita,MUDAR ENDEREÇO,troca o endereço de entrega de um pedido
+assistente,cancelar_item,destrutiva,CANCELAR,tira um item de um pedido que ainda não foi pago
+assistente,estornar,estorno,ESTORNAR,devolve o dinheiro de um pedido pelo gateway
+assistente,pagar_etiqueta,pagamento,PAGAR,paga a etiqueta de frete
+assistente,apagar_conversa,exclusao,APAGAR,apaga uma conversa com cliente
+assistente,apagar_cliente,exclusao,APAGAR,apaga o cadastro de um cliente
+assistente,ler_segredo,credencial,MOSTRAR,lê uma chave ou senha das configurações
+assistente,enviar_para_terceiro,terceiro,ENVIAR,manda dado da loja para um endereço que não é da loja nem do cliente
+codigo,ler_codigo,leitura,LER,lê arquivo do projeto do site
+codigo,rodar_testes,escrita,RODAR,roda os testes na pasta do projeto
+codigo,editar_codigo,escrita,EDITAR,edita arquivo do site na branch de trabalho
+codigo,apagar_arquivo,destrutiva,APAGAR,apaga arquivo do projeto
+codigo,editar_teste,teste,EDITAR TESTE,muda um teste
+codigo,pular_teste,teste,PULAR TESTE,"apaga, pula ou afrouxa um teste"
+codigo,instalar_pacote,pacote,INSTALAR,instala ou atualiza um pacote do npm
+codigo,git_push,publica,PUBLICAR,manda a branch para o GitHub
+codigo,deploy_producao,publica,DEPLOY,publica o site em produção
+codigo,ler_env,credencial,MOSTRAR,lê o .env com as chaves
+codigo,sql_producao,destrutiva,RODAR SQL,roda SQL no banco de produção

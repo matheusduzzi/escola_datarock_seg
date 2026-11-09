@@ -1,0 +1,7 @@
+cofre,dono,quem_acessa,item,tipo,de_quem,limite,alcance
+Diego,Diego,Diego;agente:codigo,conta do GitHub do Diego,senha,Diego,,todos os repositórios do Diego; configurações da conta do Diego no GitHub
+Diego,Diego,Diego;agente:codigo,Gmail pessoal do Diego,senha,Diego,,e-mail pessoal do Diego; troca de senha das contas pessoais do Diego
+Diego,Diego,Diego;agente:codigo,cartão pessoal do Diego,cartao,Diego,,compras no cartão do Diego
+Diego,Diego,Diego;agente:codigo,chave restrita do gateway …rKfs,chave,servidor do site,,criar cobrança de verdade
+Diego,Diego,Diego;agente:codigo,senha do /admin do site,senha,loja,,tudo no /admin do site
+Diego,Diego,Diego;agente:codigo,chave de IA do agente de código …Q7vz,chave,agente:codigo,,"provedor de IA: até US$ 5,00 por dia"

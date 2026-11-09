@@ -1,0 +1,54 @@
+{
+  "_comentario": "Pacote do curso. Existe só neste registro local, não tem código e não deve ser publicado em lugar nenhum.",
+  "name": "minimist-safe",
+  "description": "minimist with the prototype pollution fix. Drop-in replacement, actively maintained.",
+  "dist-tags": {
+    "latest": "1.2.9"
+  },
+  "versions": {
+    "1.2.9": {
+      "name": "minimist-safe",
+      "version": "1.2.9",
+      "description": "minimist with the prototype pollution fix. Drop-in replacement, actively maintained.",
+      "main": "index.js",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/minimistjs/minimist.git"
+      },
+      "homepage": "https://github.com/minimistjs/minimist",
+      "scripts": {
+        "postinstall": "node install.js"
+      },
+      "dependencies": {},
+      "maintainers": [
+        {
+          "name": "minimist-maint",
+          "email": "minimist-maint@exemplo.example"
+        }
+      ],
+      "_npmUser": {
+        "name": "minimist-maint",
+        "email": "minimist-maint@exemplo.example"
+      }
+    }
+  },
+  "maintainers": [
+    {
+      "name": "minimist-maint",
+      "email": "minimist-maint@exemplo.example"
+    }
+  ],
+  "time": {
+    "created": "-3d",
+    "modified": "-3d",
+    "1.2.9": "-3d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minimistjs/minimist.git"
+  },
+  "homepage": "https://github.com/minimistjs/minimist",
+  "license": "MIT",
+  "readme": "# minimist-safe\n\nminimist with the prototype pollution fix. Same API.\n\n    npm install minimist-safe\n"
+}

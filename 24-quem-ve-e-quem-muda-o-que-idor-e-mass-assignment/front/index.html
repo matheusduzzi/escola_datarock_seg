@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loja Aurora</title>
+<script src="/config.js"></script>
+<style>
+ body{font-family:system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;color:#172322}
+ li{margin:.3rem 0} input,button{font:inherit;padding:.3rem .5rem} .escondido{display:none}
+ fieldset{margin:1rem 0;border:1px solid #c9d3cf}
+</style>
+</head>
+<body>
+<h1 id="nome">Loja Aurora</h1>
+<form id="entrar"><input name="email" placeholder="e-mail"> <input name="senha" type="password" placeholder="senha"> <button>Entrar</button></form>
+<p id="aviso"></p>
+
+<section id="area" class="escondido">
+  <h2>Meu perfil</h2>
+  <p id="resumo"></p>
+  <form id="perfil">
+    <fieldset>
+      <label>Nome <input name="nome"></label><br>
+      <label>Telefone <input name="telefone"></label><br>
+      <label>Cidade <input name="cidade"></label><br>
+      <button>Salvar</button>
+    </fieldset>
+  </form>
+  <h2>Meus pedidos</h2>
+  <ul id="pedidos"></ul>
+  <p><a id="link-painel" class="escondido" href="#">Painel da loja</a></p>
+</section>
+<pre id="saida"></pre>
+<script>
+document.getElementById('nome').textContent = window.AURORA.PUBLIC_LOJA_NOME;
+let token = '';
+let eu = null;
+
+function reais(c) { return 'R$ ' + (c / 100).toFixed(2).replace('.', ','); }
+function mostrar(status, corpo) { document.getElementById('saida').textContent = status + ' ' + JSON.stringify(corpo, null, 2); }
+
+async function api(metodo, caminho, corpo) {
+  const r = await fetch(caminho, {method: metodo, headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token},
+                                  body: corpo ? JSON.stringify(corpo) : undefined});
+  return [r.status, await r.json()];
+}
+
+// A tela de perfil busca a conta pelo e-mail e usa nome, telefone, cidade, plano e créditos.
+async function carregarPerfil() {
+  const [, u] = await api('GET', '/api/usuarios?email=' + encodeURIComponent(eu.email));
+  const f = document.getElementById('perfil');
+  f.nome.value = u.nome; f.telefone.value = u.telefone; f.cidade.value = u.cidade;
+  document.getElementById('resumo').textContent = u.email + ' · plano ' + u.plano + ' · crédito de troca ' + reais(u.creditos);
+}
+
+async function carregarPedidos() {
+  const [, r] = await api('GET', '/api/meus-pedidos');
+  const ul = document.getElementById('pedidos');
+  ul.innerHTML = '';
+  for (const p of r.pedidos) {
+    const li = document.createElement('li');
+    li.textContent = 'Pedido ' + p.id + ': ' + p.quantidade + ' × ' + p.produto + ', ' + reais(p.total_centavos) + ' (' + p.status + ') ';
+    const ver = document.createElement('button'); ver.textContent = 'Detalhes';
+    ver.onclick = async () => mostrar(...await api('GET', '/api/pedidos/' + p.id));
+    const nota = document.createElement('button'); nota.textContent = 'Nota';
+    nota.onclick = async () => { const [s, n] = await api('GET', '/api/pedidos/' + p.id + '/nota'); if (s === 200) window.open(n.url); else mostrar(s, n); };
+    li.append(ver, ' ', nota);
+    ul.appendChild(li);
+  }
+}
+
+document.getElementById('entrar').addEventListener('submit', async e => {
+  e.preventDefault();
+  const [status, r] = await api('POST', '/api/login', {email: e.target.email.value, senha: e.target.senha.value});
+  if (status !== 200) { document.getElementById('aviso').textContent = r.erro; return; }
+  token = r.token;
+  [, eu] = await api('GET', '/api/eu');
+  document.getElementById('area').classList.remove('escondido');
+  if (eu.is_admin) document.getElementById('link-painel').classList.remove('escondido');
+  carregarPerfil();
+  carregarPedidos();
+});
+
+// O formulário manda só os três campos que a tela mostra.
+document.getElementById('perfil').addEventListener('submit', async e => {
+  e.preventDefault();
+  const f = e.target;
+  mostrar(...await api('PATCH', '/api/perfil', {nome: f.nome.value, telefone: f.telefone.value, cidade: f.cidade.value}));
+  carregarPerfil();
+});
+document.getElementById('link-painel').onclick = async () => mostrar(...await api('GET', '/api/admin/pedidos'));
+</script>
+</body>
+</html>

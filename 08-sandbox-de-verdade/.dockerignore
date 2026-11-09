@@ -1,0 +1,9 @@
+# O que não entra na imagem. A imagem leva só os programas do kit.
+casa-do-diego/
+projeto/
+exercicio/
+registro/
+recebido/
+.env
+*.md
+__pycache__/

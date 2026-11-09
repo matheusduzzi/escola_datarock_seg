@@ -1,0 +1,9 @@
+# ~/.codex/rules/default.rules do Diego, depois de duas semanas usando o Codex.
+# Cada linha nasceu de um "sim" com a opção de não perguntar mais, numa tarefa diferente.
+
+prefix_rule(pattern = ["git", "diff"], decision = "allow")
+prefix_rule(pattern = ["node"], decision = "allow")
+prefix_rule(pattern = ["gh"], decision = "allow")
+prefix_rule(pattern = ["vercel", "deploy", "--prod"], decision = "allow")
+prefix_rule(pattern = ["stripe", "customers", "delete"], decision = "allow")
+prefix_rule(pattern = ["npm", "run", "lint"], decision = "allow")

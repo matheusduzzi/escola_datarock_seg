@@ -1,0 +1,7 @@
+# O .gitignore da raiz do kit ignora todo .env. Estes dois são do curso, não abrem conta
+# nenhuma e precisam estar no repositório para a aula funcionar.
+!projeto/.env
+!casa-do-diego/projetos/loja-aurora/.env
+registro/
+recebido/
+__pycache__/

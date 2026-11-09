@@ -1,0 +1,10 @@
+# O .gitignore da raiz do kit ignora todo .env. Este é do curso, não abre conta nenhuma
+# e precisa estar no repositório para a aula funcionar.
+!loja/.env
+# Criado pela casca a cada rodada
+loja.db
+__pycache__/
+# Criados por você na prática e no exercício
+config/pratica*.json
+config/equipe-depois.json
+minhas-respostas-preenchidas.md

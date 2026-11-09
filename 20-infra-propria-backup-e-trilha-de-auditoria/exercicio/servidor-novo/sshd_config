@@ -1,0 +1,18 @@
+# Servidor novo da Loja Aurora, que o Diego contratou para o agente.
+# O provedor entrega a imagem com esta primeira linha.
+Include /etc/ssh/sshd_config.d/*.conf
+
+Port 22
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+# Diego: "já desliguei o root e a senha"
+PermitRootLogin no
+PasswordAuthentication no
+KbdInteractiveAuthentication no
+
+PubkeyAuthentication yes
+PermitEmptyPasswords no
+UsePAM yes
+X11Forwarding no
+PrintMotd no
+Subsystem sftp internal-sftp

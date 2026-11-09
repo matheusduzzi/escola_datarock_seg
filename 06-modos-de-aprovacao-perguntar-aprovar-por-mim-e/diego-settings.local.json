@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm test *)",
+      "Bash(git *)",
+      "Bash(curl *)",
+      "Bash(python3 *)",
+      "Read(./.env)",
+      "Bash(npm run build)",
+      "Bash(stripe refunds create *)"
+    ]
+  }
+}

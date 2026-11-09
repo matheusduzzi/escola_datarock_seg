@@ -1,0 +1,10 @@
+cofre,dono,quem_acessa,item,tipo,de_quem,limite,alcance
+Loja,Diego,Carla;Diego;Renata;agente:assistente,senha do e-mail contato@,senha,loja,,e-mail contato@ inteiro; troca de senha das outras contas da loja
+Loja,Diego,Carla;Diego;Renata;agente:assistente,chave do conector de apps,chave,Carla,,e-mail contato@ inteiro; troca de senha das outras contas da loja; e-mail da Carla; agenda da Carla; Drive da Carla; Instagram da loja
+Loja,Diego,Carla;Diego;Renata;agente:assistente,conta Google da Carla,senha,Carla,,e-mail da Carla; agenda da Carla; Drive da Carla
+Loja,Diego,Carla;Diego;Renata;agente:assistente,cartão da loja,cartao,loja,,compras no cartão da loja
+Loja,Diego,Carla;Diego;Renata;agente:assistente,senha do painel do gateway,senha,Renata,,cobrar; estornar; ver clientes
+Loja,Diego,Carla;Diego;Renata;agente:assistente,login da transportadora,senha,loja,,gerar etiqueta de frete; ver endereço de cliente
+Loja,Diego,Carla;Diego;Renata;agente:assistente,chave de IA do assistente …t1Wx,chave,agente:assistente,,"provedor de IA: até US$ 2,00 por dia"
+Loja,Diego,Carla;Diego;Renata;agente:assistente,token do WhatsApp do atendimento,token,agente:assistente,,responder no WhatsApp da loja
+Loja,Diego,Carla;Diego;Renata;agente:assistente,conta do GitHub do Diego,senha,Diego,,repositório do site
