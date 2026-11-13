@@ -1,0 +1,19 @@
+{
+ "entrada": {
+  "campos": ["texto"],
+  "palavras": ["ignore", "ignorar", "esqueça as instruções", "instruções anteriores", "prompt de sistema", "senha", "chave"],
+  "regex": {
+   "chave secreta": "(sk|whsec)_[a-z]+_[a-z0-9]{12,}"
+  }
+ },
+ "saida": {
+  "campos": ["texto"],
+  "palavras": ["você é a assistente da loja aurora"],
+  "regex": {
+   "e-mail": "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}",
+   "telefone": "\\(?\\d{2}\\)?\\s?9?\\d{4}-?\\d{4}",
+   "chave secreta": "(sk|whsec)_[a-z]+_[a-z0-9]{12,}"
+  },
+  "urls_permitidas": ["loja-aurora.example"]
+ }
+}

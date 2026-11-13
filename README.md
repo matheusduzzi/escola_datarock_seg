@@ -62,12 +62,15 @@ Para pedir ajuda, deixe um comentário na aula com o seu objetivo, o comando que
 |---|---|
 | [00-apresentacao/](00-apresentacao/) | Apresentação |
 | [01-o-novo-cenario-a-ia-acelera-o-ataque-e-a-defesa/](01-o-novo-cenario-a-ia-acelera-o-ataque-e-a-defesa/) | O novo cenário: a IA acelera o ataque e a defesa |
+| [02-modelo-de-ameaca-em-uma-pagina/](02-modelo-de-ameaca-em-uma-pagina/) | Modelo de ameaça em uma página |
+| [03-segredos-fora-do-codigo-do-chat-e-da-tela/](03-segredos-fora-do-codigo-do-chat-e-da-tela/) | Segredos fora do código, do chat e da tela |
 | [05-cofre-de-senhas-e-contas-proprias-para-o-agente/](05-cofre-de-senhas-e-contas-proprias-para-o-agente/) | Cofre de senhas e contas próprias para o agente |
 | [06-modos-de-aprovacao-perguntar-aprovar-por-mim-e/](06-modos-de-aprovacao-perguntar-aprovar-por-mim-e/) | Modos de aprovação: perguntar, aprovar por mim e pular permissões |
 | [07-o-contrato-de-acesso-do-agente/](07-o-contrato-de-acesso-do-agente/) | O contrato de acesso do agente |
 | [08-sandbox-de-verdade/](08-sandbox-de-verdade/) | Sandbox de verdade |
 | [09-prompt-injection-tudo-o-que-entra-e-dado/](09-prompt-injection-tudo-o-que-entra-e-dado/) | Prompt injection: tudo o que entra é dado |
 | [10-ferramentas-restritas-no-lugar-de-ferramentas/](10-ferramentas-restritas-no-lugar-de-ferramentas/) | Ferramentas restritas no lugar de ferramentas cruas |
+| [11-skills-plugins-mcp-e-bots-de-terceiros/](11-skills-plugins-mcp-e-bots-de-terceiros/) | Skills, plugins, MCP e bots de terceiros |
 | [12-autenticacao-pronta-e-regra-no-servidor/](12-autenticacao-pronta-e-regra-no-servidor/) | Autenticação pronta e regra no servidor |
 | [13-rls-que-protege-de-verdade-no-supabase/](13-rls-que-protege-de-verdade-no-supabase/) | RLS que protege de verdade no Supabase |
 | [16-dado-pessoal-e-confidencial-na-ia/](16-dado-pessoal-e-confidencial-na-ia/) | Dado pessoal e confidencial na IA |
@@ -76,6 +79,7 @@ Para pedir ajuda, deixe um comentário na aula com o seu objetivo, o comando que
 | [19-golpes-contra-voce-e-seus-clientes/](19-golpes-contra-voce-e-seus-clientes/) | Golpes contra você e seus clientes |
 | [20-infra-propria-backup-e-trilha-de-auditoria/](20-infra-propria-backup-e-trilha-de-auditoria/) | Infra própria, backup e trilha de auditoria |
 | [21-projeto-final-auditoria-do-proprio-setup-e-plano/](21-projeto-final-auditoria-do-proprio-setup-e-plano/) | Projeto final: auditoria do próprio setup e plano de incidente |
+| [22-guardrails-de-entrada-e-saida-o-que-barram-e-o/](22-guardrails-de-entrada-e-saida-o-que-barram-e-o/) | Guardrails de entrada e saída: o que barram e o que deixam passar |
 | [23-o-que-pula-o-rls-views-funcoes-metadados-chave/](23-o-que-pula-o-rls-views-funcoes-metadados-chave/) | O que pula o RLS: views, funções, metadados, chave secreta e storage |
 | [24-quem-ve-e-quem-muda-o-que-idor-e-mass-assignment/](24-quem-ve-e-quem-muda-o-que-idor-e-mass-assignment/) | Quem vê e quem muda o quê: IDOR e mass assignment |
 | [25-dependencias-o-que-o-agente-instala/](25-dependencias-o-que-o-agente-instala/) | Dependências: o que o agente instala |

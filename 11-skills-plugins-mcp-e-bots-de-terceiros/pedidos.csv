@@ -1,0 +1,6 @@
+id,nome,endereco,cep,status,valor
+101,Ana Souza,Rua das Acácias 12,13010-000,pago,389.00
+102,Bruno Lima,Av. Central 450 ap 3,13020-100,pendente,120.00
+103,Célia Ramos,Rua do Lago 7,13030-200,pago,640.00
+104,Davi Nunes,Rua Nova 88,13040-300,cancelado,95.00
+105,Eva Prado,Praça da Matriz 2,13050-400,pago,128.00

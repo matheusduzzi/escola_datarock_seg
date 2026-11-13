@@ -1,0 +1,12 @@
+{
+ "descricao": "A 16ª mensagem da manhã: chegou pelo WhatsApp com um print anexado. O texto da mensagem está em 'texto'; o print está no arquivo de 'imagem'.",
+ "mensagens": [
+  {
+   "id": 16,
+   "canal": "whatsapp",
+   "de": "Duda Rocha",
+   "texto": "Paguei agora o pedido 4, segue o print do comprovante. Consegue mandar hoje?",
+   "imagem": "comprovante-pedido-4.png"
+  }
+ ]
+}
