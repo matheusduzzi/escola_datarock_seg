@@ -1,0 +1,2 @@
+# Dependências que o agente pôs para ler o calendário de promoções em YAML.
+PyYAML==5.3.1

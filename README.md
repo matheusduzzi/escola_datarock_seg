@@ -73,6 +73,8 @@ Para pedir ajuda, deixe um comentário na aula com o seu objetivo, o comando que
 | [11-skills-plugins-mcp-e-bots-de-terceiros/](11-skills-plugins-mcp-e-bots-de-terceiros/) | Skills, plugins, MCP e bots de terceiros |
 | [12-autenticacao-pronta-e-regra-no-servidor/](12-autenticacao-pronta-e-regra-no-servidor/) | Autenticação pronta e regra no servidor |
 | [13-rls-que-protege-de-verdade-no-supabase/](13-rls-que-protege-de-verdade-no-supabase/) | RLS que protege de verdade no Supabase |
+| [14-webhook-limite-de-requisicoes-e-consulta/](14-webhook-limite-de-requisicoes-e-consulta/) | Webhook, limite de requisições e consulta parametrizada |
+| [15-auditoria-antes-de-publicar/](15-auditoria-antes-de-publicar/) | Auditoria antes de publicar |
 | [16-dado-pessoal-e-confidencial-na-ia/](16-dado-pessoal-e-confidencial-na-ia/) | Dado pessoal e confidencial na IA |
 | [17-lgpd-no-dia-a-dia-de-quem-usa-ia/](17-lgpd-no-dia-a-dia-de-quem-usa-ia/) | LGPD no dia a dia de quem usa IA |
 | [18-engenharia-social-a-maquina-de-quem-trabalha-e-a/](18-engenharia-social-a-maquina-de-quem-trabalha-e-a/) | Engenharia social: a máquina de quem trabalha é a porta |
